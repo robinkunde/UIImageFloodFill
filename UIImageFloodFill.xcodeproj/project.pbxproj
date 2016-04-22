@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2579D8E71CCA653C00E26D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2579D8E61CCA653C00E26D69 /* AppDelegate.swift */; };
+		2579D8E91CCA653C00E26D69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2579D8E81CCA653C00E26D69 /* ViewController.swift */; };
+		2579D8EC1CCA653C00E26D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2579D8EA1CCA653C00E26D69 /* Main.storyboard */; };
+		2579D8EE1CCA653C00E26D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2579D8ED1CCA653C00E26D69 /* Assets.xcassets */; };
+		2579D8F11CCA653C00E26D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2579D8EF1CCA653C00E26D69 /* LaunchScreen.storyboard */; };
+		2579D8FC1CCA653C00E26D69 /* UIImageFloodFillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2579D8FB1CCA653C00E26D69 /* UIImageFloodFillTests.swift */; };
+		2579D9071CCA653C00E26D69 /* UIImageFloodFillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2579D9061CCA653C00E26D69 /* UIImageFloodFillUITests.swift */; };
+		25BB5BC51CCA74CC002A493C /* UIImage+Floodfill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB5BC41CCA74CC002A493C /* UIImage+Floodfill.swift */; };
+		25BB5BC71CCA74D7002A493C /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BB5BC61CCA74D7002A493C /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2579D8F81CCA653C00E26D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2579D8DB1CCA653C00E26D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2579D8E21CCA653C00E26D69;
+			remoteInfo = UIImageFloodFill;
+		};
+		2579D9031CCA653C00E26D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2579D8DB1CCA653C00E26D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2579D8E21CCA653C00E26D69;
+			remoteInfo = UIImageFloodFill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2579D8E31CCA653C00E26D69 /* UIImageFloodFill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImageFloodFill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2579D8E61CCA653C00E26D69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2579D8E81CCA653C00E26D69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2579D8EB1CCA653C00E26D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2579D8ED1CCA653C00E26D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2579D8F01CCA653C00E26D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2579D8F21CCA653C00E26D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2579D8F71CCA653C00E26D69 /* UIImageFloodFillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageFloodFillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2579D8FB1CCA653C00E26D69 /* UIImageFloodFillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFloodFillTests.swift; sourceTree = "<group>"; };
+		2579D8FD1CCA653C00E26D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2579D9021CCA653C00E26D69 /* UIImageFloodFillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageFloodFillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2579D9061CCA653C00E26D69 /* UIImageFloodFillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFloodFillUITests.swift; sourceTree = "<group>"; };
+		2579D9081CCA653C00E26D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BB5BC41CCA74CC002A493C /* UIImage+Floodfill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Floodfill.swift"; sourceTree = "<group>"; };
+		25BB5BC61CCA74D7002A493C /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2579D8E01CCA653C00E26D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2579D8F41CCA653C00E26D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2579D8FF1CCA653C00E26D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2579D8DA1CCA653C00E26D69 = {
+			isa = PBXGroup;
+			children = (
+				2579D8E51CCA653C00E26D69 /* UIImageFloodFill */,
+				2579D8FA1CCA653C00E26D69 /* UIImageFloodFillTests */,
+				2579D9051CCA653C00E26D69 /* UIImageFloodFillUITests */,
+				2579D8E41CCA653C00E26D69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2579D8E41CCA653C00E26D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2579D8E31CCA653C00E26D69 /* UIImageFloodFill.app */,
+				2579D8F71CCA653C00E26D69 /* UIImageFloodFillTests.xctest */,
+				2579D9021CCA653C00E26D69 /* UIImageFloodFillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2579D8E51CCA653C00E26D69 /* UIImageFloodFill */ = {
+			isa = PBXGroup;
+			children = (
+				25BB5BC61CCA74D7002A493C /* image.png */,
+				2579D8E61CCA653C00E26D69 /* AppDelegate.swift */,
+				2579D8E81CCA653C00E26D69 /* ViewController.swift */,
+				2579D8EA1CCA653C00E26D69 /* Main.storyboard */,
+				2579D8ED1CCA653C00E26D69 /* Assets.xcassets */,
+				2579D8EF1CCA653C00E26D69 /* LaunchScreen.storyboard */,
+				2579D8F21CCA653C00E26D69 /* Info.plist */,
+				25BB5BC41CCA74CC002A493C /* UIImage+Floodfill.swift */,
+			);
+			path = UIImageFloodFill;
+			sourceTree = "<group>";
+		};
+		2579D8FA1CCA653C00E26D69 /* UIImageFloodFillTests */ = {
+			isa = PBXGroup;
+			children = (
+				2579D8FB1CCA653C00E26D69 /* UIImageFloodFillTests.swift */,
+				2579D8FD1CCA653C00E26D69 /* Info.plist */,
+			);
+			path = UIImageFloodFillTests;
+			sourceTree = "<group>";
+		};
+		2579D9051CCA653C00E26D69 /* UIImageFloodFillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2579D9061CCA653C00E26D69 /* UIImageFloodFillUITests.swift */,
+				2579D9081CCA653C00E26D69 /* Info.plist */,
+			);
+			path = UIImageFloodFillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2579D8E21CCA653C00E26D69 /* UIImageFloodFill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2579D90B1CCA653C00E26D69 /* Build configuration list for PBXNativeTarget "UIImageFloodFill" */;
+			buildPhases = (
+				2579D8DF1CCA653C00E26D69 /* Sources */,
+				2579D8E01CCA653C00E26D69 /* Frameworks */,
+				2579D8E11CCA653C00E26D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImageFloodFill;
+			productName = UIImageFloodFill;
+			productReference = 2579D8E31CCA653C00E26D69 /* UIImageFloodFill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2579D8F61CCA653C00E26D69 /* UIImageFloodFillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2579D90E1CCA653C00E26D69 /* Build configuration list for PBXNativeTarget "UIImageFloodFillTests" */;
+			buildPhases = (
+				2579D8F31CCA653C00E26D69 /* Sources */,
+				2579D8F41CCA653C00E26D69 /* Frameworks */,
+				2579D8F51CCA653C00E26D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2579D8F91CCA653C00E26D69 /* PBXTargetDependency */,
+			);
+			name = UIImageFloodFillTests;
+			productName = UIImageFloodFillTests;
+			productReference = 2579D8F71CCA653C00E26D69 /* UIImageFloodFillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2579D9011CCA653C00E26D69 /* UIImageFloodFillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2579D9111CCA653C00E26D69 /* Build configuration list for PBXNativeTarget "UIImageFloodFillUITests" */;
+			buildPhases = (
+				2579D8FE1CCA653C00E26D69 /* Sources */,
+				2579D8FF1CCA653C00E26D69 /* Frameworks */,
+				2579D9001CCA653C00E26D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2579D9041CCA653C00E26D69 /* PBXTargetDependency */,
+			);
+			name = UIImageFloodFillUITests;
+			productName = UIImageFloodFillUITests;
+			productReference = 2579D9021CCA653C00E26D69 /* UIImageFloodFillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2579D8DB1CCA653C00E26D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Recoursive;
+				TargetAttributes = {
+					2579D8E21CCA653C00E26D69 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2579D8F61CCA653C00E26D69 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2579D8E21CCA653C00E26D69;
+					};
+					2579D9011CCA653C00E26D69 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2579D8E21CCA653C00E26D69;
+					};
+				};
+			};
+			buildConfigurationList = 2579D8DE1CCA653C00E26D69 /* Build configuration list for PBXProject "UIImageFloodFill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2579D8DA1CCA653C00E26D69;
+			productRefGroup = 2579D8E41CCA653C00E26D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2579D8E21CCA653C00E26D69 /* UIImageFloodFill */,
+				2579D8F61CCA653C00E26D69 /* UIImageFloodFillTests */,
+				2579D9011CCA653C00E26D69 /* UIImageFloodFillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2579D8E11CCA653C00E26D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2579D8F11CCA653C00E26D69 /* LaunchScreen.storyboard in Resources */,
+				2579D8EE1CCA653C00E26D69 /* Assets.xcassets in Resources */,
+				2579D8EC1CCA653C00E26D69 /* Main.storyboard in Resources */,
+				25BB5BC71CCA74D7002A493C /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2579D8F51CCA653C00E26D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2579D9001CCA653C00E26D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2579D8DF1CCA653C00E26D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BB5BC51CCA74CC002A493C /* UIImage+Floodfill.swift in Sources */,
+				2579D8E91CCA653C00E26D69 /* ViewController.swift in Sources */,
+				2579D8E71CCA653C00E26D69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2579D8F31CCA653C00E26D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2579D8FC1CCA653C00E26D69 /* UIImageFloodFillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2579D8FE1CCA653C00E26D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2579D9071CCA653C00E26D69 /* UIImageFloodFillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2579D8F91CCA653C00E26D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2579D8E21CCA653C00E26D69 /* UIImageFloodFill */;
+			targetProxy = 2579D8F81CCA653C00E26D69 /* PBXContainerItemProxy */;
+		};
+		2579D9041CCA653C00E26D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2579D8E21CCA653C00E26D69 /* UIImageFloodFill */;
+			targetProxy = 2579D9031CCA653C00E26D69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2579D8EA1CCA653C00E26D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2579D8EB1CCA653C00E26D69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2579D8EF1CCA653C00E26D69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2579D8F01CCA653C00E26D69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2579D9091CCA653C00E26D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2579D90A1CCA653C00E26D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2579D90C1CCA653C00E26D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIImageFloodFill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.recoursive.com.UIImageFloodFill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2579D90D1CCA653C00E26D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIImageFloodFill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.recoursive.com.UIImageFloodFill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2579D90F1CCA653C00E26D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIImageFloodFillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.recoursive.com.UIImageFloodFillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageFloodFill.app/UIImageFloodFill";
+			};
+			name = Debug;
+		};
+		2579D9101CCA653C00E26D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIImageFloodFillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.recoursive.com.UIImageFloodFillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageFloodFill.app/UIImageFloodFill";
+			};
+			name = Release;
+		};
+		2579D9121CCA653C00E26D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIImageFloodFillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.recoursive.com.UIImageFloodFillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIImageFloodFill;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2579D9131CCA653C00E26D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIImageFloodFillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.recoursive.com.UIImageFloodFillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIImageFloodFill;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2579D8DE1CCA653C00E26D69 /* Build configuration list for PBXProject "UIImageFloodFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2579D9091CCA653C00E26D69 /* Debug */,
+				2579D90A1CCA653C00E26D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2579D90B1CCA653C00E26D69 /* Build configuration list for PBXNativeTarget "UIImageFloodFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2579D90C1CCA653C00E26D69 /* Debug */,
+				2579D90D1CCA653C00E26D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2579D90E1CCA653C00E26D69 /* Build configuration list for PBXNativeTarget "UIImageFloodFillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2579D90F1CCA653C00E26D69 /* Debug */,
+				2579D9101CCA653C00E26D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2579D9111CCA653C00E26D69 /* Build configuration list for PBXNativeTarget "UIImageFloodFillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2579D9121CCA653C00E26D69 /* Debug */,
+				2579D9131CCA653C00E26D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2579D8DB1CCA653C00E26D69 /* Project object */;
+}
